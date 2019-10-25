@@ -1,0 +1,123 @@
+/* Katschmarsky */
+
+html {
+	margin: auto 0;
+   	font-family: -apple-system, BlinkMacSystemFont, 
+    "Segoe UI", "Roboto", "Oxygen", 
+    "Ubuntu", "Cantarell", "Fira Sans", 
+    "Droid Sans", "Helvetica Neue", sans-serif;
+
+  font-size: 18px;
+  line-height: 27px;
+  font-weight:300;
+  color: #121212;
+}
+
+p {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight:400;
+  color: #121212;
+}
+
+main {
+	margin: 0px 70px;
+}
+
+nav {
+	border: 2px solid green;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+ul {
+	display: flex;
+	/* flex-direction: row;
+	justify-content: center;
+	align-items: center; */
+}
+
+h1 {
+	font-size: 4em;
+	font-weight: 700;
+	line-height: 4.5rem;
+}
+
+.container {
+	border: 2px solid blue;
+	display: flex;
+}
+
+.container-fluid {
+	border: 2px solid orange;
+	display: flex;
+	padding: 0px;
+}
+
+.navbar {
+	width: 100%;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+#read-more {
+  	justify-content: flex-end;
+}
+
+.card {
+	width: 32%;
+}
+
+
+.custom-control-label {
+	border: 2px solid grey;
+}
+
+/* Responsive version */
+
+@media (max-width: 500px) { 
+  
+	main {
+		margin: 0px 0px;
+		background-color: yellow;
+	}
+
+  #jumbotron {
+  	flex-direction: column-reverse;
+  }
+
+  #jumbotron-image {
+  	justify-content: center;
+  	width: 50%;
+  }
+
+  .align-items-center {
+  	flex-direction: column;
+  }
+
+  .justify-content-sm-between {
+  	flex-direction: column;
+  }
+
+  .justify-content-end {
+  	justify-content: flex-start;
+  	align-items: flex-start;
+  	text-align: left;
+  }
+
+  #read-more {
+  	justify-content: flex-start;
+  }
+
+  .card {
+  	width: auto;
+  	margin: 0px 0px 25px 0px;
+  }
+
+}
+
+
